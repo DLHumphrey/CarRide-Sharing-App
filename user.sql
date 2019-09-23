@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS User (
+ Username VARCHAR(20) NOT NULL,
+ Password VARCHAR(255) NOT NULL,
+ FirstName VARCHAR(20),
+ LastName VARCHAR(20),
+ Email VARCHAR(20),
+ PhoneNumber VARCHAR(15),
+ Address VARCHAR(50),
+ IDCardType VARCHAR(20),
+ IDCardNumber VARCHAR(20),
+ PRIMARY KEY (Username)
+);

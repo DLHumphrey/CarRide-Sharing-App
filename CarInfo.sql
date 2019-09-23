@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS CarInfo (
+ UserName VARCHAR(20) NOT NULL,
+ License VARCHAR(20) NOT NULL,
+ Make VARCHAR(20),
+ Model VARCHAR(20),
+ Year INT,
+ Rate DECIMAL(5,2),
+ PRIMARY KEY (UserName, License)
+);
